@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="check_input_arguments.cu" />
+    <CudaCompile Include="cuda_column_impl.cu" />
+    <CudaCompile Include="cuWRF_fpcomp.cu" />
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="cuWRF_gpu.cu" />
+    <CudaCompile Include="cuWRF_gpu_fpcomp.cu" />
+    <CudaCompile Include="cuWRF_gpu_macros.cu" />
+    <CudaCompile Include="cuWRF_init_gpus.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="check_input_arguments.cuh" />
+    <None Include="common.cuh" />
+    <None Include="cuda_column_impl.cuh" />
+    <None Include="cuwrf_config.cuh" />
+    <None Include="cuWRF_fpcomp.cuh" />
+    <None Include="cuWRF_gpu.cuh" />
+    <None Include="cuWRF_gpu_fpcomp.cuh" />
+    <None Include="cuWRF_init_gpus.cuh" />
+  </ItemGroup>
+</Project>
